@@ -14,3 +14,12 @@ RewriteRule . /homepage/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "C:\xampp\htdocs\homepage/wp-content/uploads\simply-static\9e6e20b491ad92f1990e34fc71125580-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
